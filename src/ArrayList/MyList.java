@@ -1,0 +1,99 @@
+package ArrayList;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+class MyList {
+    static void main(String[] args) {
+//        System.out.println(list.getClass().getName());
+        List<Integer> list = new ArrayList<>();
+
+        list.add(3);
+        list.add(2);
+        list.add(1);
+        Collections.sort(list);
+
+//        Integer[] array = list.toArray(new Integer[0]);
+
+//        list.remove(Integer.valueOf(1));
+        System.out.println(list);
+
+
+
+        // for replace
+//        list.set(3,10);
+//        System.out.println(list);
+
+//        List<Integer> list1 = List.of(4, 5, 6, 7, 8, 9);
+//        list.addAll(list1);
+//        System.out.println(list);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+
+        System.out.println(list.get(2));
+        System.out.println(list.size());
+        for (int i = 0; i < list.size(); i++) {
+            System.out.println(list.get(i));
+        }
+
+         for (int x : list) {
+            System.out.println(x);
+        }
+
+        //        list.add(1);
+//        list.add(5);
+//        list.add(80);
+
+//        list.remove(2);
+//        list.add(2,50);
+//        list.set(2,60);
+
+//        for (int x : list) {
+//            System.out.println(x);
+//        }
+//        System.out.println(list);
+
+list.add(1);
+
+
+ ArrayList<Integer> list = new ArrayList<>(11);
+        list.add(1);
+        list.add(1);
+        list.add(1);
+        list.add(1);
+        list.add(1);
+        list.add(1);
+        list.add(1);
+        list.add(1);
+        list.add(1);
+        list.add(1);
+        list.add(1);
+        System.out.println(list.size());
+
+
+
+        System.out.println(list.contains(5));
+        System.out.println(list.contains(50));*/
+
+    }
+}
