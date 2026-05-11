@@ -14,9 +14,18 @@ class MyList {
         list.add(1);
         Collections.sort(list);
 
+
+
+
+
+
+
+
+
 //        Integer[] array = list.toArray(new Integer[0]);
 
 //        list.remove(Integer.valueOf(1));
+
         System.out.println(list);
 
 
